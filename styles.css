@@ -1,0 +1,83 @@
+.body{
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 45%;
+    /* min-width: 54.5%; */
+    height: 20em;
+    /* min-height: 19em; */
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 30%;
+    padding: 2.2%;
+    margin-top: 5%;
+}
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-col{
+    flex-direction: column;
+}
+.titles, .inputs{
+justify-content: space-around;
+}
+.titles{
+    font-size: x-small;
+}
+.input_style{
+    width: 15%;
+    height: 3em;
+    outline-color: hsl(259, 100%, 65%);
+    margin-top: 1%;
+    padding-left: 9px; 
+}
+.input_style::placeholder, .input_style{
+    font-size: 18px;
+}
+.input_style::placeholder, .input_style, .titles{
+    font-weight: 800;
+    color: hsl(0, 0%, 41%);  
+}
+#button_section{
+padding: 3%;
+}
+.hr{
+    color: hsl(0, 0%, 94%);
+    width: 90%;
+    margin-left: 0;
+    height: 1%;
+    margin-top: 3.6%;
+}
+.btn-style{
+    background-color:  hsl(259, 100%, 65%);
+    border-radius: 100%;
+    border-style: none;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+.btn-photo{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    cursor: pointer;
+}
+#display_section{
+font-size: xx-large;
+font-style: italic;
+margin: 2%;
+padding-left: 5%;
+}
+.entered-style{
+    padding-right: 1%;
+    color: hsl(259, 100%, 65%);
+}

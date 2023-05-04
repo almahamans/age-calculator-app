@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Age, Calculator">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Age Calculator App">
+    <title>Age Calculator App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <main class="main">
+        <div>
+            <form>
+            <section id="numbers_section" class="flex-col">
+                <nav class="titles flex">
+                <label for="day">D A Y</label>
+                <label for="month">M O N T H</label>
+                <label for="year">Y E A R</label>
+                </nav>
+                <nav class="inputs flex">
+                <input name="day" id="day-text" type="number" placeholder="DD" class="input_style"></input>
+                <input name="month" id="month-text" type="number" placeholder="MM" class="input_style"></input>
+                <input name="year" id="year-text" type="number" placeholder="YYYY" class="input_style"></input>
+                </nav>  
+            </section>
+            <section id="button_section" class="flex">
+                <hr class="hr">
+                <button class="btn-style">
+                <object data="/images/icon-arrow.svg" class="btn-photo"></object>
+                </button>
+            </section>
+            </form>
+            <section id="display_section" class="flex flex-col">
+                <nav class="flex">
+                <span id="entered-years" class="entered-style">- -</span>
+                <span id="years-text">Years</span>
+                </nav>
+                <nav class="flex">
+                    <span id="entered-months" class="entered-style">- -</span>
+                    <span id="months-text">Months</span>
+                </nav>
+                <nav class="flex">
+                    <span id="entered-days" class="entered-style">- -</span>
+                    <span id="days-text">Days</span>
+                </nav>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
