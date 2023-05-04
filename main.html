@@ -15,26 +15,29 @@
 <body class="body">
     <main class="main">
         <div>
-            <form>
+            <!-- <form> -->
             <section id="numbers_section" class="flex-col">
                 <nav class="titles flex">
-                <label for="day">D A Y</label>
-                <label for="month">M O N T H</label>
-                <label for="year">Y E A R</label>
+                <label for="day" id="day-title">D A Y</label>
+                <label for="month" id="month-title">M O N T H</label>
+                <label for="year" id="year-title">Y E A R</label>
                 </nav>
                 <nav class="inputs flex">
-                <input name="day" id="day-text" type="number" placeholder="DD" class="input_style"></input>
-                <input name="month" id="month-text" type="number" placeholder="MM" class="input_style"></input>
-                <input name="year" id="year-text" type="number" placeholder="YYYY" class="input_style"></input>
-                </nav>  
+                <input name="day" id="day-input" type="text" maxlength="2" pattern="(1-9){2}" placeholder="DD" class="input_style" required></input>
+                <input name="month" id="month-input" type="text" maxlength="2" pattern="(1-9){2}" placeholder="MM" class="input_style" required></input>
+                <input name="year" id="year-input" type="text" maxlength="4" minlength="4" pattern="(1-9){4}" placeholder="YYYY" class="input_style" required></input>       
+            </nav>  
+            <nav id="error_nav" class="error">
+                <p id="day_error">* this field is required in correct way</p>
+            </nav>
             </section>
             <section id="button_section" class="flex">
                 <hr class="hr">
-                <button class="btn-style">
+                <button class="btn-style" id="btn">
                 <object data="/images/icon-arrow.svg" class="btn-photo"></object>
                 </button>
             </section>
-            </form>
+            <!-- </form> -->
             <section id="display_section" class="flex flex-col">
                 <nav class="flex">
                 <span id="entered-years" class="entered-style">- -</span>
@@ -51,5 +54,6 @@
             </section>
         </div>
     </main>
+    <script src="./functions.js"></script>
 </body>
 </html>
