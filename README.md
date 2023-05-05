@@ -5,7 +5,7 @@ This app is screen responsive and quickly.
 
 ## Technology used:
 - Html5 > meta tags used to inhance SEO.
-- Css > used to do style and make the app responsive by using media query.
+- Css > used to do style and make the app responsive by using media query and flexbox.
 - JS > using DOM to manipulate html tags and create age function.
 
 ### Resources:
