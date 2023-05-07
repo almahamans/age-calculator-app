@@ -8,5 +8,9 @@ This app is screen responsive and quickly.
 - Css > used to do style and make the app responsive by using media query and flexbox.
 - JS > using DOM to manipulate html tags and create age function.
 
+### App link
+
+[Age Calculater](https://almahamans.github.io/age-calculator-app/main.html)
+
 ### Resources:
 This project is a challenge provided by [Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/hub)
